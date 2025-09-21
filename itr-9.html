@@ -203,7 +203,8 @@
                                 _ngcontent-ng-c1684455036="" class="hyperLink disabled" tabindex="-1"
                                 aria-disabled="true" aria-current="page"
                                 href="https://eportal.incometax.gov.in/iec/foservices/#/foreturns-ay25/fo-itr2-fy2025/schedulecyla">
-                                Schedule CYLA </a></li><!---->
+                                Schedule BFLA
+                            </a></li><!---->
                     </ul>
                 </div>
             </lib-breadcrumbs-ap>
@@ -211,294 +212,435 @@
 
 
 
-            <lib-itr2-fy2025 class="ng-star-inserted"><router-outlet></router-outlet><app-schedulecyla
-                    _nghost-ng-c3926960014="" class="ng-star-inserted">
-                    <div _ngcontent-ng-c3926960014="" class="itr-form-ap">
-                        <form _ngcontent-ng-c3926960014="" novalidate=""
-                            class="gap-14 d-flex flex-column w-100 ng-untouched ng-pristine ng-valid" id="ScheduleCYLA"
-                            name="ScheduleCYLA">
-                            <div _ngcontent-ng-c3926960014="" class="d-flex gap-14 w-100 justify-between">
-                                <div _ngcontent-ng-c3926960014="" style="width: max(65%, 12.5rem);">
-                                    <h1 _ngcontent-ng-c3926960014="" class="font-24">Schedule CYLA</h1>
-                                    <div _ngcontent-ng-c3926960014="">
-                                        <p _ngcontent-ng-c3926960014="" id="ScheduleCYLA_note" class="primaryText">
-                                            Details
-                                            of Income after set-off of current years losses</p>
-                                    </div>
-                                </div>
-                                <div _ngcontent-ng-c3926960014="" class="d-flex justify-end pr-16">
-                                    <p _ngcontent-ng-c3926960014=""><span _ngcontent-ng-c3926960014=""
-                                            class="highlight">*
-                                        </span>Indicates mandatory fields</p>
-                                </div>
-                            </div>
-                            <div _ngcontent-ng-c3926960014="" class="bg-white-adp">
-                                <div _ngcontent-ng-c3926960014="" class="d-flex flex-column gap-14 default">
-                                    <div _ngcontent-ng-c3926960014="">
-                                        <fieldset id="ScheduleCYLA.ScheduleCYLA_Gr5" class="style-table default"
-                                            tabindex="0">
-                                            <table aria-label="Head / Source of Income">
-                                                <tbody>
-                                                    <tr>
-                                                        <th class="p-16" style="min-width: 2.5rem;">Sl No.</th>
-                                                        <th colspan="2" class="p-16">Head / Source of Income</th>
-                                                        <th class="p-16">Income of current year (Fill this column only
-                                                            if income is zero or positive) (1)</th>
-                                                        <th class="p-16">House property loss of the current year set off
-                                                            (2)</th>
-                                                        <th class="p-16">Net loss from Other sources chargeable at
-                                                            normal applicable rates (other than loss from race horses)
-                                                            of the current year set off (3)</th>
-                                                        <th class="p-16">Current year’s income remaining after set off
-                                                            (4) = 1 − 2 − 3</th>
-                                                    </tr>
-
-                                                    <tr>
-                                                        <th class="p-16" style="min-width: 2.5rem;">i.</th>
-                                                        <th colspan="2">Loss to be set off (Fill this row only if
-                                                            computed figure is negative)</th>
-                                                        <td class="empty-cell"></td>
-                                                        <td class="p-16 td-table-data">₹ <output
-                                                                name="TotHPlossCurYr">0</output></td>
-                                                        <td class="p-16 td-table-data">₹ <output
-                                                                name="TotOthSrcLossNoRaceHorse">0</output></td>
-                                                        <td class="empty-cell"></td>
-                                                    </tr>
-
-                                                    <tr>
-                                                        <th class="p-16" style="min-width: 2.5rem;">ii.</th>
-                                                        <th colspan="2">Salaries</th>
-                                                        <td class="p-16 td-table-data" style="text-align: right;">₹
-                                                            <output name="SalaryCurYr">7,41,000</output>
-                                                        </td>
-                                                        <td class="p-16 td-table-data">
-                                                            <div class="input-group">
-                                                                <span class="input-group-text">₹</span>
-                                                                <input type="number" name="SalaryHPlossCurYrSetoff"
-                                                                    class="form-control text-right" disabled>
-                                                            </div>
-                                                        </td>
-                                                        <td class="p-16 td-table-data">
-                                                            <div class="input-group">
-                                                                <span class="input-group-text">₹</span>
-                                                                <input type="number" name="SalaryHPlossCurYrSetoff"
-                                                                    class="form-control text-right" disabled>
-                                                            </div>
-                                                        </td>
-                                                        <td class="p-16 td-table-data" style="text-align: right;">₹
-                                                            <output name="SalaryAfterSetOff">7,41,000</output>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr>
-                                                        <th class="p-16" style="min-width: 2.5rem;">iii.</th>
-                                                        <th colspan="2">House property</th>
-                                                        <td class="p-16 td-table-data" style="text-align: right;">₹
-                                                            <output name="HPIncCurYr">0</output>
-                                                        </td>
-                                                        <td class="empty-cell"></td>
-                                                        <td class="p-16 td-table-data">
-                                                            <div class="input-group">
-                                                                <span class="input-group-text">₹</span>
-                                                                <input type="number" name="SalaryHPlossCurYrSetoff"
-                                                                    class="form-control text-right" disabled>
-                                                            </div>
-                                                        </td>
-                                                        <td class="p-16 td-table-data" style="text-align: right;">₹
-                                                            <output name="HPIncAfterSetOff">0</output>
-                                                        </td>
-                                                    </tr>
-
-                                                    <!-- Short-term capital gains -->
-                                                    <tr>
-                                                        <th class="p-16" style="min-width: 2.5rem;">iva.</th>
-                                                        <th colspan="2">Short-term capital gain taxable @ 15%</th>
-                                                        <td class="p-16 td-table-data" style="text-align: right;">₹
-                                                            <output name="STCG15CurYr">0</output>
-                                                        </td>
-                                                        <td class="p-16 td-table-data">
-                                                            <div class="input-group">
-                                                                <span class="input-group-text">₹</span>
-                                                                <input type="number" name="SalaryHPlossCurYrSetoff"
-                                                                    class="form-control text-right" disabled>
-                                                            </div>
-                                                        </td>
-                                                        <td class="p-16 td-table-data">
-                                                            <div class="input-group">
-                                                                <span class="input-group-text">₹</span>
-                                                                <input type="number" name="SalaryHPlossCurYrSetoff"
-                                                                    class="form-control text-right" disabled>
-                                                            </div>
-                                                        </td>
-                                                        <td class="p-16 td-table-data" style="text-align: right;">₹
-                                                            <output name="STCG15AfterSetOff">0</output>
-                                                        </td>
-                                                    </tr>
-
-                                                    <tr>
-                                                        <th class="p-16" style="min-width: 2.5rem;">ivb.</th>
-                                                        <th colspan="2">Short-term capital gain taxable @ 20%</th>
-                                                        <td class="p-16 td-table-data" style="text-align: right;">₹
-                                                            <output name="STCG20CurYr">0</output>
-                                                        </td>
-                                                        <td class="p-16 td-table-data">
-                                                            <div class="input-group">
-                                                                <span class="input-group-text">₹</span>
-                                                                <input type="number" name="SalaryHPlossCurYrSetoff"
-                                                                    class="form-control text-right" disabled>
-                                                            </div>
-                                                        </td>
-                                                        <td class="p-16 td-table-data">
-                                                            <div class="input-group">
-                                                                <span class="input-group-text">₹</span>
-                                                                <input type="number" name="SalaryHPlossCurYrSetoff"
-                                                                    class="form-control text-right" disabled>
-                                                            </div>
-                                                        </td>
-                                                        <td class="p-16 td-table-data" style="text-align: right;">₹
-                                                            <output name="STCG20AfterSetOff">0</output>
-                                                        </td>
-                                                    </tr>
-
-                                                    <!-- Long-term capital gains -->
-                                                    <tr>
-                                                        <th class="p-16" style="min-width: 2.5rem;">v.</th>
-                                                        <th colspan="2">Short-term capital gain taxable @ 30%</th>
-                                                        <td class="p-16 td-table-data" style="text-align: right;">₹
-                                                            <output name="STCG30CurYr">0</output>
-                                                        </td>
-                                                        <td class="p-16 td-table-data">
-                                                            <div class="input-group">
-                                                                <span class="input-group-text">₹</span>
-                                                                <input type="number" name="SalaryHPlossCurYrSetoff"
-                                                                    class="form-control text-right" disabled>
-                                                            </div>
-                                                        </td>
-                                                        <td class="p-16 td-table-data">
-                                                            <div class="input-group">
-                                                                <span class="input-group-text">₹</span>
-                                                                <input type="number" name="SalaryHPlossCurYrSetoff"
-                                                                    class="form-control text-right" disabled>
-                                                            </div>
-                                                        </td>
-                                                        <td class="p-16 td-table-data" style="text-align: right;">₹
-                                                            <output name="STCG30AfterSetOff">0</output>
-                                                        </td>
-                                                    </tr>
-
-                                                    <!-- Net income from other sources -->
-                                                    <tr>
-                                                        <th class="p-16" style="min-width: 2.5rem;">xi.</th>
-                                                        <th colspan="2">Net income from other sources chargeable at
-                                                            normal applicable rates</th>
-                                                        <td style="text-align:right;" class="p-16 td-table-data">₹
-                                                            <output>38,331</output>
-                                                        </td>
-                                                        <td class="p-16 td-table-data">
-                                                            <div class="input-group">
-                                                                <span class="input-group-text">₹</span>
-                                                                <input type="number" name="SalaryHPlossCurYrSetoff"
-                                                                    class="form-control text-right" disabled>
-                                                            </div>
-                                                        </td>
-                                                        <td></td>
-                                                        <td style="text-align:right;" class="p-16 td-table-data">₹
-                                                            <output>38,331</output>
-                                                        </td>
-                                                    </tr>
-
-                                                    <!-- Race horse income -->
-                                                    <tr>
-                                                        <th class="p-16" style="min-width: 2.5rem;">xii.</th>
-                                                        <th colspan="2">Profit from the activity of owning and
-                                                            maintaining race horses</th>
-                                                        <td style="text-align:right;" class="p-16 td-table-data">₹
-                                                            <output name="OthSrcRaceHorseCurYr">0</output>
-                                                        </td>
-                                                        <td class="p-16 td-table-data">
-                                                            <div class="input-group">
-                                                                <span class="input-group-text">₹</span>
-                                                                <input type="number" name="SalaryHPlossCurYrSetoff"
-                                                                    class="form-control text-right" disabled>
-                                                            </div>
-                                                        </td>
-                                                        <td class="p-16 td-table-data">
-                                                            <div class="input-group">
-                                                                <span class="input-group-text">₹</span>
-                                                                <input type="number" name="SalaryHPlossCurYrSetoff"
-                                                                    class="form-control text-right" disabled>
-                                                            </div>
-                                                        </td>
-                                                        <td style="text-align:right;" class="p-16 td-table-data">₹
-                                                            <output name="OthSrcRaceHorseAfterSetOff">0</output>
-                                                        </td>
-                                                    </tr>
-
-                                                    <!-- Total loss set off -->
-                                                    <tr>
-                                                        <th class="p-16" style="min-width: 2.5rem;">xiv.</th>
-                                                        <th colspan="2">Total loss set off</th>
-                                                        <td class="empty-cell"></td>
-                                                        <td class="p-16 td-table-data">
-                                                            <div class="input-group">
-                                                                <span class="input-group-text">₹</span>
-                                                                <input type="number" name="SalaryHPlossCurYrSetoff"
-                                                                    class="form-control text-right" disabled>
-                                                            </div>
-                                                        </td>
-                                                        <td class="p-16 td-table-data">
-                                                            <div class="input-group">
-                                                                <span class="input-group-text">₹</span>
-                                                                <input type="number" name="SalaryHPlossCurYrSetoff"
-                                                                    class="form-control text-right" disabled>
-                                                            </div>
-                                                        </td>
-                                                        <td class="empty-cell"></td>
-                                                    </tr>
-
-                                                    <!-- Loss remaining after set-off -->
-                                                    <tr>
-                                                        <th class="p-16" style="min-width: 2.5rem;">xv.</th>
-                                                        <th colspan="2">Loss remaining after set−off (i − xiv)</th>
-                                                        <td class="empty-cell"></td>
-                                                        <td class="p-16 td-table-data">
-                                                            <div class="input-group">
-                                                                <span class="input-group-text">₹</span>
-                                                                <input type="number" name="SalaryHPlossCurYrSetoff"
-                                                                    class="form-control text-right" disabled>
-                                                            </div>
-                                                        </td>
-                                                        <td class="p-16 td-table-data">
-                                                            <div class="input-group">
-                                                                <span class="input-group-text">₹</span>
-                                                                <input type="number" name="SalaryHPlossCurYrSetoff"
-                                                                    class="form-control text-right" disabled>
-                                                            </div>
-                                                        </td>
-                                                        <td class="empty-cell"></td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </fieldset>
-
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div class="d-flex justify-between gap-14 w-100">
-                                <button id="ScheduleCYLA_back" type="button"
-                                    class="largeButton secondaryButton iconBefore previousIcon">
-                                    Back to Summary
-                                </button>
-                                <button id="ScheduleCYLA_save" type="button" class="largeButton primaryButton">
-                                    Confirm
-                                </button>
-                            </div>
-
-                        </form>
+            <div class="itr-form-ap">
+                <form id="ScheduleCYLA" name="ScheduleCYLA" class="gap-14 d-flex flex-column w-100" novalidate>
+                    <div class="d-flex gap-14 w-100 justify-between">
+                        <div style="width: max(65%, 12.5rem);">
+                            <h1 class="font-24">Schedule BFLA</h1>
+                            <p id="ScheduleCYLA_note" class="primaryText">
+                                Details of Income after Set off of Brought Forward Losses of earlier years
+                            </p>
+                        </div>
                     </div>
-                </app-schedulecyla><!----></lib-itr2-fy2025>
+                    <div class="bg-white-adp">
+                        <div class="d-flex flex-column gap-14 sch-table default">
+                            <fieldset id="ScheduleBFLA" name="ScheduleBFLA" tabindex="0" class="style-table default">
+                                <table aria-label="Head / Source of Income">
+                                    <thead>
+                                        <tr>
+                                            <th class="p-16" style="min-width: 2.5rem !important;">Sl No.</th>
+                                            <th class="p-16" colspan="2">Head / Source of Income</th>
+                                            <th class="p-16">Income after set off of current year’s losses</th>
+                                            <th class="p-16">Brought forward loss set off</th>
+                                            <th class="p-16">Current year’s income remaining after set off</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th class="p-16" style="min-width: 2.5rem !important;">i.</th>
+                                            <th colspan="2">Salaries</th>
+                                            <td class="p-16 text-right">₹ 7,41,000</td>
+                                            <td class="p-16 text-right">₹ 0</td>
+                                            <td class="p-16 text-right">₹ 7,41,000</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="p-16" style="min-width: 2.5rem !important;">ii.</th>
+                                            <th colspan="2">House property</th>
+                                            <td class="p-16 text-right">₹ 0</td>
+                                            <td class="p-16 text-right">₹ 0</td>
+                                            <td class="p-16 text-right">₹ 0</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="p-16" style="min-width: 2.5rem !important;">iiia.</th>
+                                            <th colspan="2">Short-term capital gain taxable @ 15%</th>
+                                            <td class="p-16 text-right">₹ 0</td>
+                                            <td class="p-16 td-table-data">
+                                                <div class="input-group">
+                                                    <span class="input-group-text">₹</span>
+                                                    <input type="number" name="SalaryHPlossCurYrSetoff"
+                                                        class="form-control text-right" disabled>
+                                                </div>
+                                            </td>
+                                            <td class="p-16 text-right">₹ 0</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="p-16" style="min-width: 2.5rem !important;">iiib.</th>
+                                            <th colspan="2">Short-term capital gain taxable @ 20%</th>
+                                            <td class="p-16 text-right">₹ 0</td>
+                                            <td class="p-16 td-table-data">
+                                                <div class="input-group">
+                                                    <span class="input-group-text">₹</span>
+                                                    <input type="number" name="SalaryHPlossCurYrSetoff"
+                                                        class="form-control text-right" disabled>
+                                                </div>
+                                            </td>
+                                            <td class="p-16 text-right">₹ 0</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="p-16" style="min-width: 2.5rem !important;">iv.</th>
+                                            <th colspan="2">Short-term capital gain taxable @ 30%</th>
+                                            <td class="p-16 text-right">₹ 0</td>
+                                            <td class="p-16 td-table-data">
+                                                <div class="input-group">
+                                                    <span class="input-group-text">₹</span>
+                                                    <input type="number" name="SalaryHPlossCurYrSetoff"
+                                                        class="form-control text-right" disabled>
+                                                </div>
+                                            </td>
+                                            <td class="p-16 text-right">₹ 0</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="p-16" style="min-width: 2.5rem !important;">v.</th>
+                                            <th colspan="2">Short-term capital gain taxable at applicable rates</th>
+                                            <td class="p-16 text-right">₹ 0</td>
+                                            <td class="p-16 td-table-data">
+                                                <div class="input-group">
+                                                    <span class="input-group-text">₹</span>
+                                                    <input type="number" name="SalaryHPlossCurYrSetoff"
+                                                        class="form-control text-right" disabled>
+                                                </div>
+                                            </td>
+                                            <td class="p-16 text-right">₹ 0</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="p-16" style="min-width: 2.5rem !important;">vi.</th>
+                                            <th colspan="2">Short-term capital gain taxable at special rates as per DTAA
+                                            </th>
+                                            <td class="p-16 text-right">₹ 0</td>
+                                            <td class="p-16 td-table-data">
+                                                <div class="input-group">
+                                                    <span class="input-group-text">₹</span>
+                                                    <input type="number" name="SalaryHPlossCurYrSetoff"
+                                                        class="form-control text-right" disabled>
+                                                </div>
+                                            </td>
+                                            <td class="p-16 text-right">₹ 0</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="p-16" style="min-width: 2.5rem !important;">viia.</th>
+                                            <th colspan="2">Long term capital gain taxable @ 10%</th>
+                                            <td class="p-16 text-right">₹ 0</td>
+                                            <td class="p-16 td-table-data">
+                                                <div class="input-group">
+                                                    <span class="input-group-text">₹</span>
+                                                    <input type="number" name="SalaryHPlossCurYrSetoff"
+                                                        class="form-control text-right" disabled>
+                                                </div>
+                                            </td>
+                                            <td class="p-16 text-right">₹ 0</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="p-16" style="min-width: 2.5rem !important;">viib.</th>
+                                            <th colspan="2">Long term capital gain taxable @ 12.5%</th>
+                                            <td class="p-16 text-right">₹ 0</td>
+                                            <td class="p-16 td-table-data">
+                                                <div class="input-group">
+                                                    <span class="input-group-text">₹</span>
+                                                    <input type="number" name="SalaryHPlossCurYrSetoff"
+                                                        class="form-control text-right" disabled>
+                                                </div>
+                                            </td>
+                                            <td class="p-16 text-right">₹ 0</td>
+                                        </tr>
+                                        <tr>
+                                            <th class="p-16" style="min-width: 2.5rem !important;"><label>viii.</label>
+                                            </th>
+                                            <th colspan="2">
+                                                Long term capital gain taxable @ 20%
+                                            </th>
+                                            <td class="p-16 td-table-data">
+                                                <div class="label-input-wrapper default">
+                                                    <div style="width: 100%;">
+                                                        <div
+                                                            style="text-align: right; width: 100%; padding-right: 0.4em;">
+                                                            <span class="primaryText">₹ </span><output aria-live="off"
+                                                                id="ScheduleBFLA.LTCG20Per.IncBFLA.IncOfCurYrUndHeadFromCYLA"
+                                                                aria-labelledby="ScheduleBFLA.LTCG20Per.IncBFLA.IncOfCurYrUndHeadFromCYLA_lbl"
+                                                                aria-errormessage="ScheduleBFLA.LTCG20Per.IncBFLA.IncOfCurYrUndHeadFromCYLA_err"
+                                                                attr.data-name="ScheduleBFLA.LTCG20Per.IncBFLA.IncOfCurYrUndHeadFromCYLA"
+                                                                name="ScheduleBFLA.LTCG20Per.IncBFLA.IncOfCurYrUndHeadFromCYLA">0</output>
+                                                        </div>
+                                                        <div id="ScheduleBFLA.LTCG20Per.IncBFLA.IncOfCurYrUndHeadFromCYLA_err"
+                                                            data-type="error" aria-live="polite" aria-atomic="true">
+                                                            <span class="d-none"></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="p-16 td-table-data">
+                                                <div class="input-group">
+                                                    <span class="input-group-text">₹</span>
+                                                    <input type="number" name="SalaryHPlossCurYrSetoff"
+                                                        class="form-control text-right" disabled>
+                                                </div>
+                                            </td>
+                                            <td colspan="1" class="p-16 td-table-data">
+                                                <div class="label-input-wrapper default">
+                                                    <div style="width: 100%;">
+                                                        <div
+                                                            style="text-align: right; width: 100%; padding-right: 0.4em;">
+                                                            <span class="primaryText">₹ </span><output aria-live="off"
+                                                                id="ScheduleBFLA.LTCG20Per.IncBFLA.IncOfCurYrAfterSetOffBFLosses"
+                                                                aria-labelledby="ScheduleBFLA.LTCG20Per.IncBFLA.IncOfCurYrAfterSetOffBFLosses_lbl"
+                                                                aria-errormessage="ScheduleBFLA.LTCG20Per.IncBFLA.IncOfCurYrAfterSetOffBFLosses_err"
+                                                                attr.data-name="ScheduleBFLA.LTCG20Per.IncBFLA.IncOfCurYrAfterSetOffBFLosses"
+                                                                name="ScheduleBFLA.LTCG20Per.IncBFLA.IncOfCurYrAfterSetOffBFLosses">0</output>
+                                                        </div>
+                                                        <div id="ScheduleBFLA.LTCG20Per.IncBFLA.IncOfCurYrAfterSetOffBFLosses_err"
+                                                            data-type="error" aria-live="polite" aria-atomic="true">
+                                                            <span class="d-none"></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th class="p-16" style="min-width: 2.5rem !important;"><label>ix.</label>
+                                            </th>
+                                            <th rowspan="1" colspan="2" scope="row">
+                                                Long term capital gains taxable at
+                                                special rates in India as per DTAA
+                                            </th>
+                                            <td colspan="1" class="p-16 td-table-data">
+                                                <div class="label-input-wrapper default">
+                                                    <div style="width: 100%;">
+                                                        <div
+                                                            style="text-align: right; width: 100%; padding-right: 0.4em;">
+                                                            <span class="primaryText">₹ </span><output aria-live="off"
+                                                                id="ScheduleBFLA.LTCGDTAARate.IncBFLA.IncOfCurYrUndHeadFromCYLA"
+                                                                aria-labelledby="ScheduleBFLA.LTCGDTAARate.IncBFLA.IncOfCurYrUndHeadFromCYLA_lbl"
+                                                                aria-errormessage="ScheduleBFLA.LTCGDTAARate.IncBFLA.IncOfCurYrUndHeadFromCYLA_err"
+                                                                attr.data-name="ScheduleBFLA.LTCGDTAARate.IncBFLA.IncOfCurYrUndHeadFromCYLA"
+                                                                name="ScheduleBFLA.LTCGDTAARate.IncBFLA.IncOfCurYrUndHeadFromCYLA">0</output>
+                                                        </div>
+                                                        <div id="ScheduleBFLA.LTCGDTAARate.IncBFLA.IncOfCurYrUndHeadFromCYLA_err"
+                                                            data-type="error" aria-live="polite" aria-atomic="true">
+                                                            <span class="d-none"></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                            <td class="p-16 td-table-data">
+                                                <div class="input-group">
+                                                    <span class="input-group-text">₹</span>
+                                                    <input type="number" name="SalaryHPlossCurYrSetoff"
+                                                        class="form-control text-right" disabled>
+                                                </div>
+                                            </td>
+                                            <td colspan="1" class="p-16 td-table-data">
+                                                <!-- Income After Set Off Display -->
+                                                <div class="label-input-wrapper default">
+                                                    <div style="width: 100%;">
+                                                        <div
+                                                            style="text-align: right; width: 100%; padding-right: 0.4em;">
+                                                            <span class="primaryText">₹ </span>
+                                                            <output
+                                                                id="ScheduleBFLA.LTCGDTAARate.IncBFLA.IncOfCurYrAfterSetOffBFLosses"
+                                                                name="ScheduleBFLA.LTCGDTAARate.IncBFLA.IncOfCurYrAfterSetOffBFLosses"
+                                                                aria-live="off"
+                                                                aria-errormessage="ScheduleBFLA.LTCGDTAARate.IncBFLA.IncOfCurYrAfterSetOffBFLosses_err"
+                                                                aria-labelledby="ScheduleBFLA.LTCGDTAARate.IncBFLA.IncOfCurYrAfterSetOffBFLosses_lbl">0</output>
+                                                        </div>
+                                                        <div id="ScheduleBFLA.LTCGDTAARate.IncBFLA.IncOfCurYrAfterSetOffBFLosses_err"
+                                                            data-type="error" aria-live="polite" aria-atomic="true">
+                                                            <span class="d-none"></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <!-- Serial Number -->
+                                            <th scope="row" class="p-16 sn-cell" style="min-width: 2.5rem !important;">
+                                                <label>x.</label>
+                                            </th>
 
+                                            <!-- Description -->
+                                            <th scope="row" colspan="2" class="p-16 desc-cell">
+                                                Normal Other sources income chargeable to tax at Applicable rates
+                                            </th>
+
+                                            <!-- Current Year Income Before Set Off -->
+                                            <td class="p-16 td-table-data">
+                                                <div class="label-input-wrapper">
+                                                    <div class="output-wrapper text-right">
+                                                        <span class="currency-symbol">₹ </span>
+                                                        <output id="othSrcIncomeCurYr" name="othSrcIncomeCurYr"
+                                                            aria-live="off" class="income-output">38,331</output>
+                                                    </div>
+                                                    <div id="othSrcIncomeCurYr_err" class="error-msg"
+                                                        aria-live="polite">
+                                                        <span class="d-none"></span>
+                                                    </div>
+                                                </div>
+                                            </td>
+
+                                            <!-- Empty cell -->
+                                            <td class="empty-cell"></td>
+
+                                            <!-- Current Year Income After Set Off -->
+                                            <td class="p-16 td-table-data">
+                                                <div class="label-input-wrapper">
+                                                    <div class="output-wrapper text-right">
+                                                        <span class="currency-symbol">₹ </span>
+                                                        <output id="othSrcIncomeAfterSetOff"
+                                                            name="othSrcIncomeAfterSetOff" aria-live="off"
+                                                            class="income-output">38,331</output>
+                                                    </div>
+                                                    <div id="othSrcIncomeAfterSetOff_err" class="error-msg"
+                                                        aria-live="polite">
+                                                        <span class="d-none"></span>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+
+                                        <!-- xi. Profit from owning and maintaining race horses -->
+                                        <tr>
+                                            <th scope="row" class="p-16 sn-cell" style="min-width: 2.5rem !important;">
+                                                <label>xi.</label>
+                                            </th>
+                                            <th scope="row" colspan="2" class="p-16 desc-cell">
+                                                Profit from owning and maintaining race horses
+                                            </th>
+                                            <td class="p-16 td-table-data">
+                                                <div class="label-input-wrapper">
+                                                    <div class="output-wrapper text-right">
+                                                        <span class="currency-symbol">₹ </span>
+                                                        <output id="racehorse_curyr" name="racehorse_curyr"
+                                                            class="income-output">0</output>
+                                                    </div>
+                                                    <div id="racehorse_curyr_err" class="error-msg"></div>
+                                                </div>
+                                            </td>
+                                            <td class="p-16 td-table-data">
+                                                <div class="label-input-wrapper">
+                                                    <div class="output-wrapper text-right">
+                                                        <span class="currency-symbol">₹ </span>
+                                                        <output id="racehorse_setoff" name="racehorse_setoff"
+                                                            class="income-output">0</output>
+                                                    </div>
+                                                    <div id="racehorse_setoff_err" class="error-msg"></div>
+                                                </div>
+                                            </td>
+                                            <td class="p-16 td-table-data">
+                                                <div class="label-input-wrapper">
+                                                    <div class="output-wrapper text-right">
+                                                        <span class="currency-symbol">₹ </span>
+                                                        <output id="racehorse_after" name="racehorse_after"
+                                                            class="income-output">0</output>
+                                                    </div>
+                                                    <div id="racehorse_after_err" class="error-msg"></div>
+                                                </div>
+                                            </td>
+                                        </tr>
+
+                                        <!-- xii. Income from other sources taxable at special rates in India as per DTAA -->
+                                        <tr>
+                                            <th scope="row" class="p-16 sn-cell" style="min-width: 2.5rem !important;">
+                                                <label>xii.</label>
+                                            </th>
+                                            <th scope="row" colspan="2" class="p-16 desc-cell">
+                                                Income from other sources taxable at special rates in India as per
+                                                DTAA
+                                            </th>
+                                            <td class="p-16 td-table-data">
+                                                <div class="label-input-wrapper">
+                                                    <div class="output-wrapper text-right">
+                                                        <span class="currency-symbol">₹ </span>
+                                                        <output id="os_dtaa_curyr" name="os_dtaa_curyr"
+                                                            class="income-output">0</output>
+                                                    </div>
+                                                    <div id="os_dtaa_curyr_err" class="error-msg"></div>
+                                                </div>
+                                            </td>
+                                            <td class="empty-cell"></td>
+                                            <td class="p-16 td-table-data">
+                                                <div class="label-input-wrapper">
+                                                    <div class="output-wrapper text-right">
+                                                        <span class="currency-symbol">₹ </span>
+                                                        <output id="os_dtaa_after" name="os_dtaa_after"
+                                                            class="income-output">0</output>
+                                                    </div>
+                                                    <div id="os_dtaa_after_err" class="error-msg"></div>
+                                                </div>
+                                            </td>
+                                        </tr>
+
+
+
+
+
+
+
+                                        <!-- xii. Income from other sources taxable at special rates in India as per DTAA -->
+                                        <tr>
+                                            <th scope="row" class="p-16 sn-cell" style="min-width: 2.5rem !important;">
+                                                <label>xiii.</label>
+                                            </th>
+                                            <th scope="row" colspan="2" class="p-16 desc-cell">
+                                                Total of brought forward loss set off (2ii + 2iiia + 2iiib+ 2iv + 2v+
+                                                2vi + 2viia+ 2viib+ 2viii + 2ix + 2xi+2xii)
+
+                                            <td>
+
+                                            </td>
+                                            <td class="p-16 td-table-data">
+                                                <div class="input-group">
+                                                    <span class="input-group-text">₹</span>
+                                                    <input type="number" name="SalaryHPlossCurYrSetoff"
+                                                        class="form-control text-right" disabled>
+                                                </div>
+                                            </td>
+                                            <td class="empty-cell"></td>
+
+                                        </tr>
+
+                                        <!-- xii. Income from other sources taxable at special rates in India as per DTAA -->
+                                        <tr>
+                                            <th scope="row" class="p-16 sn-cell" style="min-width: 2.5rem !important;">
+                                                <label>xiv.</label>
+                                            </th>
+                                            <th scope="row" colspan="2" class="p-16 desc-cell">
+                                                Current year’s income remaining after set off Total of (3i + 3ii + 3iiia
+                                                + 3iiib+3iv + 3v+ 3vi + 3vii + 3viiia+ 3viiib+ 3ix + 3x + 3xi+3xii)
+
+                                            </th>
+
+
+                                            <td class="empty-cell"></td>
+                                            <td class="empty-cell"></td>
+                                            <td class="p-16 td-table-data " style="text-align: right; width: 100%; ">
+                                                ₹ 7,79,331
+                                            </td>
+                                        </tr>
+
+
+
+
+
+
+
+
+
+                                    </tbody>
+                                </table>
+                            </fieldset>
+                        </div>
+                    </div>
+
+
+                    <!-- Buttons -->
+                    <div class="d-flex justify-between gap-14 w-100">
+                        <button id="ScheduleCYLA_back" type="button" class="largeButton secondaryButton">
+                            Back to Summary
+                        </button>
+                        <button id="ScheduleCYLA_save" type="button" class="largeButton primaryButton">
+                            Confirm
+                        </button>
+                    </div>
+                </form>
+            </div>
 
 
 

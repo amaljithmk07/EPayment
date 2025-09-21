@@ -72242,3 +72242,8 @@ label.checkbox-custom.schedule-checkbox {
 .style-table {
     overflow: auto;
 }
+.itr-form-ap .sch-table table th {
+    text-align: left;
+    padding: 1rem;
+    min-width: 13rem !important;
+}
