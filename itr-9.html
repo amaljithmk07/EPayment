@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+<!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang=""> <!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="css/normalize.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="js/swiper.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+
+</head>
+
+<body>
+
+    <header>
+        <div class="container customHeader">
+            <div class="row mx-0">
+                <div class="col-lg-4 col-md-4 col-sm-2 col-xs-4 header-top">
+                    <div class="region region-header-top">
+                        <a class="logo navbar-btn pull-left" href="index.html" rel="home"
+                            aria-label="Home | Income Tax Department" role="presentation" data-title="Home">
+                            <img src="images/logo.svg" alt="EFiling Logo" typeof="Image" role="img" id="en">
+                        </a>
+                    </div>
+
+                    <button class="navbar-toggler mob-toggle-block" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" class="bi" fill="currentColor"
+                            viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z">
+                            </path>
+                        </svg>
+                    </button>
+                </div>
+                <div class="col-lg-8 col-md-8 col-sm-10 col-xs-8 header_topright">
+                    <ul class="top-right-ul">
+                        <li class="border-left-none">
+                            <svg class="img-responsive callusicon dropdown" height="13.5"
+                                src="/sites/default/files/2020-02/call-us.svg" style="" viewBox="0 0 13.5 13.5"
+                                width="13.5" xmlns="http://www.w3.org/2000/svg">
+
+                                <path class="cls-1"
+                                    d="M5.715,8.842a11.361,11.361,0,0,0,4.943,4.943l1.65-1.65a.746.746,0,0,1,.765-.18,8.555,8.555,0,0,0,2.677.427.752.752,0,0,1,.75.75V15.75a.752.752,0,0,1-.75.75A12.749,12.749,0,0,1,3,3.748.752.752,0,0,1,3.75,3H6.375a.752.752,0,0,1,.75.75,8.52,8.52,0,0,0,.427,2.677.753.753,0,0,1-.187.765Z"
+                                    data-name="Path 6681" id="Path_6681" style="fill: rgb(102, 102, 102);"
+                                    transform="translate(-3 -3)">
+                                </path>
+                            </svg>
+                            <select class="w-100 language-sel ms-1" aria-label="Default select example">
+                                <option class="d-none" selected>Call Us</option>
+                                <!-- <option value="2">Two</option>
+                                <option value="3">Three</option> -->
+                            </select>
+                        </li>
+                        <li>
+                            <svg height="18" viewBox="0 0 18 18" width="18" xmlns="http://www.w3.org/2000/svg">
+                                <defs>
+                                    <clipPath id="prefix__clip-path">
+                                        <path class="prefix__cls-1" d="M0 0H18V18H0z" data-name="Rectangle 7"
+                                            id="prefix__Rectangle_7">
+                                        </path>
+                                    </clipPath>
+                                    <style type="text/css">
+                                        .prefix__cls-1 {
+                                            fill: none
+                                        }
+                                    </style>
+                                </defs>
+                                <g id="prefix__round-language-24px">
+                                    <path class="prefix__cls-1" d="M0 0h18v18H0z" data-name="Path 4"
+                                        id="prefix__Path_4"></path>
+                                    <path
+                                        d="M8.993 2a7 7 0 1 0 4.954 2.048A7 7 0 0 0 8.993 2zm4.851 4.2h-2.065a10.954 10.954 0 0 0-.966-2.492A5.621 5.621 0 0 1 13.844 6.2zM9 3.428A9.861 9.861 0 0 1 10.337 6.2H7.663A9.861 9.861 0 0 1 9 3.428zM3.582 10.4a5.476 5.476 0 0 1 0-2.8h2.366A11.561 11.561 0 0 0 5.85 9a11.562 11.562 0 0 0 .1 1.4zm.574 1.4h2.065a10.954 10.954 0 0 0 .966 2.492A5.591 5.591 0 0 1 4.156 11.8zm2.065-5.6H4.156a5.591 5.591 0 0 1 3.031-2.492A10.954 10.954 0 0 0 6.221 6.2zM9 14.572A9.861 9.861 0 0 1 7.663 11.8h2.674A9.861 9.861 0 0 1 9 14.572zm1.638-4.172H7.362A10.3 10.3 0 0 1 7.25 9a10.21 10.21 0 0 1 .112-1.4h3.276A10.21 10.21 0 0 1 10.75 9a10.3 10.3 0 0 1-.112 1.4zm.175 3.892a10.954 10.954 0 0 0 .966-2.492h2.065a5.621 5.621 0 0 1-3.031 2.492zm1.239-3.892a11.561 11.561 0 0 0 .1-1.4 11.561 11.561 0 0 0-.1-1.4h2.366a5.476 5.476 0 0 1 0 2.8z"
+                                        data-name="Path 5" id="prefix__Path_5" style="fill:rgba(0,0,0,.6)"></path>
+                                </g>
+                            </svg>
+                            <select class="ms-1 language-sel" aria-label="Default select example">
+                                <option selected>English</option>
+                                <option value="1">Hindi</option>
+                                <!-- <option value="2">Two</option>
+                              <option value="3">Three</option> -->
+                            </select>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <svg height="18" id="zoom-out" viewBox="0 0 18 18" width="18"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path class="prefix__cls-2"
+                                        d="M15 5a1.137 1.137 0 0 0-1.05.69l-3.88 8.97a.964.964 0 1 0 1.78.74l.66-1.6h5l.66 1.6a.959.959 0 0 0 1.77-.74l-3.88-8.97A1.162 1.162 0 0 0 15 5zm-1.87 7L15 6.98 16.87 12z"
+                                        data-name="Path 17372" id="prefix__Path_17372"
+                                        transform="translate(-7.714 -1.154)"></path>
+                                    <rect width="5" height="2" rx="1" transform="translate(10 3)" fill="#000"></rect>
+                                </svg>
+
+                            </a>
+                        </li>
+                        <li class="border-left-none">
+                            <a class="f-ic pt-0" href="#"><img src="images/icn-01.svg" typeof="Image" role="img"
+                                    id="en"></a>
+                        </li>
+                        <li class="border-left-none">
+                            <a href="#">
+                                <svg height="18" id="zoom-in" viewBox="0 0 18 18" width="18"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <defs>
+                                        <style type="text/css">
+                                        </style>
+                                    </defs>
+                                    <path d="M0 0h18v18H0z" data-name="Path 30" id="prefix__Path_30" style="fill:none">
+                                    </path>
+                                    <path class="prefix__cls-2"
+                                        d="M6 10V9a1 1 0 0 0-2 0v1H3a1 1 0 0 0 0 2h1v1a1 1 0 0 0 2 0v-1h1a1 1 0 0 0 0-2z"
+                                        data-name="Path 31" id="prefix__Path_31" transform="translate(9 -5.5)"></path>
+                                    <path class="prefix__cls-2"
+                                        d="M15 5a1.137 1.137 0 0 0-1.05.69l-3.88 8.97a.964.964 0 1 0 1.78.74l.66-1.6h5l.66 1.6a.959.959 0 0 0 1.77-.74l-3.88-8.97A1.162 1.162 0 0 0 15 5zm-1.87 7L15 6.98 16.87 12z"
+                                        data-name="Path 17372" id="prefix__Path_17372"
+                                        transform="translate(-7.714 -1.154)"></path>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#"><img src="images/dark-mode.svg" typeof="Image" role="img" id="en"></a>
+                        </li>
+                        <li class="mob-hide">
+                            <a href="#" class="btn login">Login</a>
+                        </li>
+                        <li class="mob-hide border-left-none">
+                            <a href="#" class="btn register">Register</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+
+
+
+    <section>
+        <div class="container">
+
+
+
+            <lib-breadcrumbs-ap _ngcontent-ng-c3335738855="" _nghost-ng-c1684455036="">
+                <div _ngcontent-ng-c1684455036="" class="mb-10">
+                    <ul _ngcontent-ng-c1684455036="" class="breadcrumbs" style="margin-bottom: 10px; margin-top: 20px;">
+                        <li _ngcontent-ng-c1684455036="" class="breadcrumb-item breadcrumb-lh"><a
+                                _ngcontent-ng-c1684455036="" routerlink="/dashboard" attr.aria-disabled="false"
+                                tabindex="0" class="hyperLink"
+                                href="https://eportal.incometax.gov.in/iec/foservices/#/dashboard">
+                                Dashboard </a></li>
+                        <li _ngcontent-ng-c1684455036="" role="none" class="breadcrumb-item breadcrumb-lh"><a
+                                _ngcontent-ng-c1684455036="" role="link" attr.aria-disabled="true" tabindex="-1"
+                                class="hyperLink disabled" aria-label="e-file unavailable"> e-file </a></li>
+                        <li _ngcontent-ng-c1684455036="" role="none" class="breadcrumb-item breadcrumb-lh"><a
+                                _ngcontent-ng-c1684455036="" role="link" attr.aria-disabled="true" tabindex="-1"
+                                class="hyperLink disabled" aria-label="Income Tax Return unavailable"> Income Tax Return
+                            </a></li>
+                        <li _ngcontent-ng-c1684455036="" class="breadcrumb-item breadcrumb-lh ng-star-inserted"><a
+                                _ngcontent-ng-c1684455036="" class="hyperLink" tabindex="0" aria-disabled="false"
+                                aria-current=""
+                                href="https://eportal.incometax.gov.in/iec/foservices/#/foreturns-ay25/fo-itr-shared/fo-select-status">
+                                Select Status </a></li>
+                        <li _ngcontent-ng-c1684455036="" class="breadcrumb-item breadcrumb-lh ng-star-inserted"><a
+                                _ngcontent-ng-c1684455036="" class="hyperLink" tabindex="0" aria-disabled="false"
+                                aria-current=""
+                                href="https://eportal.incometax.gov.in/iec/foservices/#/foreturns-ay25/fo-itr-shared/fo-select-itr-form">
+                                Filing Returns for A.Y. 2025-26 </a></li>
+                        <li _ngcontent-ng-c1684455036="" class="breadcrumb-item breadcrumb-lh ng-star-inserted"><a
+                                _ngcontent-ng-c1684455036="" class="hyperLink" tabindex="0" aria-disabled="false"
+                                aria-current=""
+                                href="https://eportal.incometax.gov.in/iec/foservices/#/foreturns-ay25/fo-itr-shared/fo-lets-get-started">
+                                ITR </a></li>
+                        <li _ngcontent-ng-c1684455036="" class="breadcrumb-item breadcrumb-lh ng-star-inserted"><a
+                                _ngcontent-ng-c1684455036="" class="hyperLink" tabindex="0" aria-disabled="false"
+                                aria-current=""
+                                href="https://eportal.incometax.gov.in/iec/foservices/#/foreturns-ay25/fo-itr2-fy2025/fo-select-schedules">
+                                Select Schedule </a></li>
+                        <li _ngcontent-ng-c1684455036="" class="breadcrumb-item breadcrumb-lh ng-star-inserted"><a
+                                _ngcontent-ng-c1684455036="" class="hyperLink" tabindex="0" aria-disabled="false"
+                                aria-current=""
+                                href="https://eportal.incometax.gov.in/iec/foservices/#/foreturns-ay25/fo-itr2-fy2025/fo-schedules-summary">
+                                Return Summary </a></li>
+                        <li _ngcontent-ng-c1684455036="" class="breadcrumb-item breadcrumb-lh ng-star-inserted"><a
+                                _ngcontent-ng-c1684455036="" class="hyperLink disabled" tabindex="-1"
+                                aria-disabled="true" aria-current="page"
+                                href="https://eportal.incometax.gov.in/iec/foservices/#/foreturns-ay25/fo-itr2-fy2025/schedulecyla">
+                                Schedule CYLA </a></li><!---->
+                    </ul>
+                </div>
+            </lib-breadcrumbs-ap>
+
+
+
+
+            <lib-itr2-fy2025 class="ng-star-inserted"><router-outlet></router-outlet><app-schedulecyla
+                    _nghost-ng-c3926960014="" class="ng-star-inserted">
+                    <div _ngcontent-ng-c3926960014="" class="itr-form-ap">
+                        <form _ngcontent-ng-c3926960014="" novalidate=""
+                            class="gap-14 d-flex flex-column w-100 ng-untouched ng-pristine ng-valid" id="ScheduleCYLA"
+                            name="ScheduleCYLA">
+                            <div _ngcontent-ng-c3926960014="" class="d-flex gap-14 w-100 justify-between">
+                                <div _ngcontent-ng-c3926960014="" style="width: max(65%, 12.5rem);">
+                                    <h1 _ngcontent-ng-c3926960014="" class="font-24">Schedule CYLA</h1>
+                                    <div _ngcontent-ng-c3926960014="">
+                                        <p _ngcontent-ng-c3926960014="" id="ScheduleCYLA_note" class="primaryText">
+                                            Details
+                                            of Income after set-off of current years losses</p>
+                                    </div>
+                                </div>
+                                <div _ngcontent-ng-c3926960014="" class="d-flex justify-end pr-16">
+                                    <p _ngcontent-ng-c3926960014=""><span _ngcontent-ng-c3926960014=""
+                                            class="highlight">*
+                                        </span>Indicates mandatory fields</p>
+                                </div>
+                            </div>
+                            <div _ngcontent-ng-c3926960014="" class="bg-white-adp">
+                                <div _ngcontent-ng-c3926960014="" class="d-flex flex-column gap-14 default">
+                                    <div _ngcontent-ng-c3926960014="">
+                                        <fieldset id="ScheduleCYLA.ScheduleCYLA_Gr5" class="style-table default"
+                                            tabindex="0">
+                                            <table aria-label="Head / Source of Income">
+                                                <tbody>
+                                                    <tr>
+                                                        <th class="p-16" style="min-width: 2.5rem;">Sl No.</th>
+                                                        <th colspan="2" class="p-16">Head / Source of Income</th>
+                                                        <th class="p-16">Income of current year (Fill this column only
+                                                            if income is zero or positive) (1)</th>
+                                                        <th class="p-16">House property loss of the current year set off
+                                                            (2)</th>
+                                                        <th class="p-16">Net loss from Other sources chargeable at
+                                                            normal applicable rates (other than loss from race horses)
+                                                            of the current year set off (3)</th>
+                                                        <th class="p-16">Current year’s income remaining after set off
+                                                            (4) = 1 − 2 − 3</th>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <th class="p-16" style="min-width: 2.5rem;">i.</th>
+                                                        <th colspan="2">Loss to be set off (Fill this row only if
+                                                            computed figure is negative)</th>
+                                                        <td class="empty-cell"></td>
+                                                        <td class="p-16 td-table-data">₹ <output
+                                                                name="TotHPlossCurYr">0</output></td>
+                                                        <td class="p-16 td-table-data">₹ <output
+                                                                name="TotOthSrcLossNoRaceHorse">0</output></td>
+                                                        <td class="empty-cell"></td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <th class="p-16" style="min-width: 2.5rem;">ii.</th>
+                                                        <th colspan="2">Salaries</th>
+                                                        <td class="p-16 td-table-data" style="text-align: right;">₹
+                                                            <output name="SalaryCurYr">7,41,000</output>
+                                                        </td>
+                                                        <td class="p-16 td-table-data">
+                                                            <div class="input-group">
+                                                                <span class="input-group-text">₹</span>
+                                                                <input type="number" name="SalaryHPlossCurYrSetoff"
+                                                                    class="form-control text-right" disabled>
+                                                            </div>
+                                                        </td>
+                                                        <td class="p-16 td-table-data">
+                                                            <div class="input-group">
+                                                                <span class="input-group-text">₹</span>
+                                                                <input type="number" name="SalaryHPlossCurYrSetoff"
+                                                                    class="form-control text-right" disabled>
+                                                            </div>
+                                                        </td>
+                                                        <td class="p-16 td-table-data" style="text-align: right;">₹
+                                                            <output name="SalaryAfterSetOff">7,41,000</output>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <th class="p-16" style="min-width: 2.5rem;">iii.</th>
+                                                        <th colspan="2">House property</th>
+                                                        <td class="p-16 td-table-data" style="text-align: right;">₹
+                                                            <output name="HPIncCurYr">0</output>
+                                                        </td>
+                                                        <td class="empty-cell"></td>
+                                                        <td class="p-16 td-table-data">
+                                                            <div class="input-group">
+                                                                <span class="input-group-text">₹</span>
+                                                                <input type="number" name="SalaryHPlossCurYrSetoff"
+                                                                    class="form-control text-right" disabled>
+                                                            </div>
+                                                        </td>
+                                                        <td class="p-16 td-table-data" style="text-align: right;">₹
+                                                            <output name="HPIncAfterSetOff">0</output>
+                                                        </td>
+                                                    </tr>
+
+                                                    <!-- Short-term capital gains -->
+                                                    <tr>
+                                                        <th class="p-16" style="min-width: 2.5rem;">iva.</th>
+                                                        <th colspan="2">Short-term capital gain taxable @ 15%</th>
+                                                        <td class="p-16 td-table-data" style="text-align: right;">₹
+                                                            <output name="STCG15CurYr">0</output>
+                                                        </td>
+                                                        <td class="p-16 td-table-data">
+                                                            <div class="input-group">
+                                                                <span class="input-group-text">₹</span>
+                                                                <input type="number" name="SalaryHPlossCurYrSetoff"
+                                                                    class="form-control text-right" disabled>
+                                                            </div>
+                                                        </td>
+                                                        <td class="p-16 td-table-data">
+                                                            <div class="input-group">
+                                                                <span class="input-group-text">₹</span>
+                                                                <input type="number" name="SalaryHPlossCurYrSetoff"
+                                                                    class="form-control text-right" disabled>
+                                                            </div>
+                                                        </td>
+                                                        <td class="p-16 td-table-data" style="text-align: right;">₹
+                                                            <output name="STCG15AfterSetOff">0</output>
+                                                        </td>
+                                                    </tr>
+
+                                                    <tr>
+                                                        <th class="p-16" style="min-width: 2.5rem;">ivb.</th>
+                                                        <th colspan="2">Short-term capital gain taxable @ 20%</th>
+                                                        <td class="p-16 td-table-data" style="text-align: right;">₹
+                                                            <output name="STCG20CurYr">0</output>
+                                                        </td>
+                                                        <td class="p-16 td-table-data">
+                                                            <div class="input-group">
+                                                                <span class="input-group-text">₹</span>
+                                                                <input type="number" name="SalaryHPlossCurYrSetoff"
+                                                                    class="form-control text-right" disabled>
+                                                            </div>
+                                                        </td>
+                                                        <td class="p-16 td-table-data">
+                                                            <div class="input-group">
+                                                                <span class="input-group-text">₹</span>
+                                                                <input type="number" name="SalaryHPlossCurYrSetoff"
+                                                                    class="form-control text-right" disabled>
+                                                            </div>
+                                                        </td>
+                                                        <td class="p-16 td-table-data" style="text-align: right;">₹
+                                                            <output name="STCG20AfterSetOff">0</output>
+                                                        </td>
+                                                    </tr>
+
+                                                    <!-- Long-term capital gains -->
+                                                    <tr>
+                                                        <th class="p-16" style="min-width: 2.5rem;">v.</th>
+                                                        <th colspan="2">Short-term capital gain taxable @ 30%</th>
+                                                        <td class="p-16 td-table-data" style="text-align: right;">₹
+                                                            <output name="STCG30CurYr">0</output>
+                                                        </td>
+                                                        <td class="p-16 td-table-data">
+                                                            <div class="input-group">
+                                                                <span class="input-group-text">₹</span>
+                                                                <input type="number" name="SalaryHPlossCurYrSetoff"
+                                                                    class="form-control text-right" disabled>
+                                                            </div>
+                                                        </td>
+                                                        <td class="p-16 td-table-data">
+                                                            <div class="input-group">
+                                                                <span class="input-group-text">₹</span>
+                                                                <input type="number" name="SalaryHPlossCurYrSetoff"
+                                                                    class="form-control text-right" disabled>
+                                                            </div>
+                                                        </td>
+                                                        <td class="p-16 td-table-data" style="text-align: right;">₹
+                                                            <output name="STCG30AfterSetOff">0</output>
+                                                        </td>
+                                                    </tr>
+
+                                                    <!-- Net income from other sources -->
+                                                    <tr>
+                                                        <th class="p-16" style="min-width: 2.5rem;">xi.</th>
+                                                        <th colspan="2">Net income from other sources chargeable at
+                                                            normal applicable rates</th>
+                                                        <td style="text-align:right;" class="p-16 td-table-data">₹
+                                                            <output>38,331</output>
+                                                        </td>
+                                                        <td class="p-16 td-table-data">
+                                                            <div class="input-group">
+                                                                <span class="input-group-text">₹</span>
+                                                                <input type="number" name="SalaryHPlossCurYrSetoff"
+                                                                    class="form-control text-right" disabled>
+                                                            </div>
+                                                        </td>
+                                                        <td></td>
+                                                        <td style="text-align:right;" class="p-16 td-table-data">₹
+                                                            <output>38,331</output>
+                                                        </td>
+                                                    </tr>
+
+                                                    <!-- Race horse income -->
+                                                    <tr>
+                                                        <th class="p-16" style="min-width: 2.5rem;">xii.</th>
+                                                        <th colspan="2">Profit from the activity of owning and
+                                                            maintaining race horses</th>
+                                                        <td style="text-align:right;" class="p-16 td-table-data">₹
+                                                            <output name="OthSrcRaceHorseCurYr">0</output>
+                                                        </td>
+                                                        <td class="p-16 td-table-data">
+                                                            <div class="input-group">
+                                                                <span class="input-group-text">₹</span>
+                                                                <input type="number" name="SalaryHPlossCurYrSetoff"
+                                                                    class="form-control text-right" disabled>
+                                                            </div>
+                                                        </td>
+                                                        <td class="p-16 td-table-data">
+                                                            <div class="input-group">
+                                                                <span class="input-group-text">₹</span>
+                                                                <input type="number" name="SalaryHPlossCurYrSetoff"
+                                                                    class="form-control text-right" disabled>
+                                                            </div>
+                                                        </td>
+                                                        <td style="text-align:right;" class="p-16 td-table-data">₹
+                                                            <output name="OthSrcRaceHorseAfterSetOff">0</output>
+                                                        </td>
+                                                    </tr>
+
+                                                    <!-- Total loss set off -->
+                                                    <tr>
+                                                        <th class="p-16" style="min-width: 2.5rem;">xiv.</th>
+                                                        <th colspan="2">Total loss set off</th>
+                                                        <td class="empty-cell"></td>
+                                                        <td class="p-16 td-table-data">
+                                                            <div class="input-group">
+                                                                <span class="input-group-text">₹</span>
+                                                                <input type="number" name="SalaryHPlossCurYrSetoff"
+                                                                    class="form-control text-right" disabled>
+                                                            </div>
+                                                        </td>
+                                                        <td class="p-16 td-table-data">
+                                                            <div class="input-group">
+                                                                <span class="input-group-text">₹</span>
+                                                                <input type="number" name="SalaryHPlossCurYrSetoff"
+                                                                    class="form-control text-right" disabled>
+                                                            </div>
+                                                        </td>
+                                                        <td class="empty-cell"></td>
+                                                    </tr>
+
+                                                    <!-- Loss remaining after set-off -->
+                                                    <tr>
+                                                        <th class="p-16" style="min-width: 2.5rem;">xv.</th>
+                                                        <th colspan="2">Loss remaining after set−off (i − xiv)</th>
+                                                        <td class="empty-cell"></td>
+                                                        <td class="p-16 td-table-data">
+                                                            <div class="input-group">
+                                                                <span class="input-group-text">₹</span>
+                                                                <input type="number" name="SalaryHPlossCurYrSetoff"
+                                                                    class="form-control text-right" disabled>
+                                                            </div>
+                                                        </td>
+                                                        <td class="p-16 td-table-data">
+                                                            <div class="input-group">
+                                                                <span class="input-group-text">₹</span>
+                                                                <input type="number" name="SalaryHPlossCurYrSetoff"
+                                                                    class="form-control text-right" disabled>
+                                                            </div>
+                                                        </td>
+                                                        <td class="empty-cell"></td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </fieldset>
+
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="d-flex justify-between gap-14 w-100">
+                                <button id="ScheduleCYLA_back" type="button"
+                                    class="largeButton secondaryButton iconBefore previousIcon">
+                                    Back to Summary
+                                </button>
+                                <button id="ScheduleCYLA_save" type="button" class="largeButton primaryButton">
+                                    Confirm
+                                </button>
+                            </div>
+
+                        </form>
+                    </div>
+                </app-schedulecyla><!----></lib-itr2-fy2025>
+
+
+
+
+        </div>
+
+
+    </section>
+
+
+
+
+    <footer class="footer-main mt-5 pt-5 pb-5" style="background: #eeeff6;">
+
+        <div class="container customHeader">
+
+            <div class="row">
+                <div class="col-md-5">
+                    <img src="images/emblem.svg">
+                </div>
+                <div class="col-md-7 text-right footer-right">
+                    <ul>
+                        <li>
+                            <a href="#">Feedback | </a>
+                            <a href="#">Website Policies | </a>
+                            <a href="#">Accessibility Statement | </a>
+                            <a href="#">Site Map | </a>
+                            <a href="#"> Browser Support | </a>
+                            <a href="#">CoBrowse Help</a>
+                        </li>
+                    </ul>
+                    <p>Last reviewed and updated on : 19-Sep-2025</p>
+                    <p>This site is best viewed in 1024 * 768 resolution with latest version of Chrome, Firefox, Safari
+                        and Edge.
+                    </p>
+                    <p>Copyright Ⓒ Income Tax Department, Ministry of Finance, Government of India. All Rights Reserved
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
