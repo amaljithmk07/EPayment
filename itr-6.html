@@ -297,237 +297,165 @@
               <div class="d-flex flex-column gap-14 default">
 
                 <!-- 1. House Property Panel -->
-                <mat-expansion-panel hidetoggle class="mat-expansion-panel ng-tns-c857250080-56 ng-star-inserted">
-                  <mat-expansion-panel-header role="button" class="mat-expansion-panel-header mat-focus-indicator"
-                    style="height: fit-content;" id="mat-expansion-panel-header-6" tabindex="0"
-                    aria-controls="cdk-accordion-child-6" aria-expanded="false" aria-disabled="false">
-                    <span class="mat-content mat-content-hide-toggle w-100">
+                <div class="mat-expansion-panel">
+                  <div role="button" class="mat-expansion-panel-header">
+                    <span class="mat-content w-100">
                       <div class="d-flex gap-16 w-100" style="margin: 5px 0;">
                         <div class="d-flex align-center">
-                          <mat-icon role="img"
-                            class="mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color"
-                            aria-hidden="true">
+                          <div role="img" class="mat-icon" aria-hidden="true">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                               class="bi bi-chevron-right" viewBox="0 0 16 16">
                               <path fill-rule="evenodd"
                                 d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708">
                               </path>
                             </svg>
-                          </mat-icon>
+                          </div>
                         </div>
-                        <div class="col-lg-8"">
-                                        <mat-panel-title class=" mat-expansion-panel-header-title d-flex flex-column">
-                          <label id="ScheduleHP.PropertyDetails_lbl" for="ScheduleHP.PropertyDetails">
-                            <h2 class="font-20">1. Gross income chargeable to tax at normal applicable rates (1a+ 1b+
-                              1c+ 1d + 1e) </h2>
-                          </label>
-                          </mat-panel-title>
+                        <div class="col-lg-8">
+                          <div class="mat-expansion-panel-header-title d-flex flex-column">
+                            <h2 class="font-20">
+                              1. Gross income chargeable to tax at normal applicable rates (1a+1b+1c+1d+1e)
+                            </h2>
+                          </div>
                         </div>
                       </div>
                     </span>
-                  </mat-expansion-panel-header>
+                  </div>
 
-                  <div role="region" class="mat-expansion-panel-content" id="cdk-accordion-child-6"
-                    aria-labelledby="mat-expansion-panel-header-6" style="height: 0px; visibility: hidden;">
+                  <div role="region" class="mat-expansion-panel-content">
                     <div class="mat-expansion-panel-body">
                       <hr class="w-100">
 
-                      <fieldset id="ScheduleOS.ScheduleOS_Gr5" name="ScheduleOS.ScheduleOS_Gr5"
-                        class="d-flex flex-column gap-14 gross-income routing"
-                        aria-labelledby="ScheduleOS.ScheduleOS_Gr5_lbl"
-                        aria-errormessage="ScheduleOS.ScheduleOS_Gr5_err" style="padding-top: 1.5rem; border: none;">
+                      <fieldset class="d-flex flex-column gap-14 gross-income routing"
+                        style="padding-top: 1.5rem; border: none;">
 
                         <!-- Edit/Delete Buttons -->
                         <div class="d-flex w-100 justify-end pr-16">
                           <div class="d-flex gap-16">
-                            <button type="button" id="ScheduleOS.ScheduleOS_Gr5_edit" class="editButton iconEdit"
-                              aria-label="Edit">
-                              Edit
-                            </button>
-                            <button type="button" id="ScheduleOS.ScheduleOS_Gr5_delete" class="deleteButton"
-                              aria-label="Delete">
-                              Delete
-                            </button>
+                            <button type="button" class="editButton iconEdit">Edit</button>
+                            <button type="button" class="deleteButton">Delete</button>
                           </div>
                         </div>
 
                         <!-- a. Dividends -->
                         <div class="label-input-wrapper row-field text-bold-d font-16 non-edit">
-                          <label for="ScheduleOS.IncOthThanOwnRaceHorse.DividendGross"
-                            id="ScheduleOS.IncOthThanOwnRaceHorse.DividendGross_lbl">
-                            a. Dividends, Gross (ai + aii + aiii)
-                          </label>
+                          <label>a. Dividends, Gross (ai + aii + aiii)</label>
                           <div style="text-align: right; width: fit-content;">
                             <span class="primaryText">₹</span>
-                            <output id="ScheduleOS.IncOthThanOwnRaceHorse.DividendGross">0</output>
+                            <output>0</output>
                           </div>
-
                         </div>
 
                         <!-- b. Interest -->
                         <div class="label-input-wrapper row-field text-bold-d font-16 non-edit">
-                          <label for="ScheduleOS.IncOthThanOwnRaceHorse.InterestGross"
-                            id="ScheduleOS.IncOthThanOwnRaceHorse.InterestGross_lbl">
-                            b. Interest, Gross (bi + bii + biii + biv + bv + bvi + bvii + bviii + bix)
-                          </label>
+                          <label>b. Interest, Gross (bi + bii + biii + biv + bv + bvi + bvii + bviii + bix)</label>
                           <div style="text-align: right; width: fit-content;">
                             <span class="primaryText">₹</span>
-                            <output id="ScheduleOS.IncOthThanOwnRaceHorse.InterestGross">38,331</output>
+                            <output>38,331</output>
                           </div>
-
                         </div>
 
                         <!-- c. Rental income -->
                         <div class="label-input-wrapper row-field text-bold-d font-16 non-edit">
-                          <label for="ScheduleOS.IncOthThanOwnRaceHorse.RentFromMachPlantBldgs"
-                            id="ScheduleOS.IncOthThanOwnRaceHorse.RentFromMachPlantBldgs_lbl">
-                            c. Rental income from machinery, plants, buildings etc., Gross
-                          </label>
+                          <label>c. Rental income from machinery, plants, buildings etc., Gross</label>
                           <div style="text-align: right; width: fit-content;">
                             <span class="primaryText">₹</span>
-                            <output id="ScheduleOS.IncOthThanOwnRaceHorse.RentFromMachPlantBldgs">0</output>
+                            <output>0</output>
                           </div>
-
                         </div>
 
                         <!-- d. Section 56(2)(x) -->
                         <div class="label-input-wrapper row-field text-bold-d font-16 non-edit">
-                          <label for="ScheduleOS.IncOthThanOwnRaceHorse.Tot562x"
-                            id="ScheduleOS.IncOthThanOwnRaceHorse.Tot562x_lbl">
-                            d. Income of the nature referred to in section 56(2)(x) chargeable to tax
-                            (di + dii + diii + div + dv)
-                          </label>
+                          <label>d. Income of the nature referred to in section 56(2)(x) (di + dii + diii + div +
+                            dv)</label>
                           <div style="text-align: right; width: fit-content;">
                             <span class="primaryText">₹</span>
-                            <output id="ScheduleOS.IncOthThanOwnRaceHorse.Tot562x">0</output>
+                            <output>0</output>
                           </div>
-
                         </div>
 
                         <!-- e. Other income -->
                         <div class="label-input-wrapper row-field text-bold-d font-16 non-edit">
-                          <label for="ScheduleOS.IncOthThanOwnRaceHorse.AnyOtherIncome"
-                            id="ScheduleOS.IncOthThanOwnRaceHorse.AnyOtherIncome_lbl">
-                            e. Any other income (please specify nature)
-                          </label>
+                          <label>e. Any other income (please specify nature)</label>
                           <div style="text-align: right; width: fit-content;">
                             <span class="primaryText">₹</span>
-                            <output id="ScheduleOS.IncOthThanOwnRaceHorse.AnyOtherIncome">0</output>
+                            <output>0</output>
                           </div>
-
                         </div>
-
                       </fieldset>
                     </div>
-
                   </div>
-                </mat-expansion-panel>
+                </div>
 
 
 
 
-
-
-
-
-
-                <mat-expansion-panel hidetoggle class="mat-expansion-panel ng-tns-c857250080-56 ng-star-inserted">
-                  <mat-expansion-panel-header role="button" class="mat-expansion-panel-header mat-focus-indicator"
-                    style="height: fit-content;" id="mat-expansion-panel-header-6" tabindex="0"
-                    aria-controls="cdk-accordion-child-6" aria-expanded="false" aria-disabled="false">
-                    <span class="mat-content mat-content-hide-toggle w-100">
+                <!-- 2. Income chargeable at special rates -->
+                <div class="mat-expansion-panel">
+                  <div role="button" class="mat-expansion-panel-header">
+                    <span class="mat-content w-100">
                       <div class="d-flex gap-16 w-100" style="margin: 5px 0;">
                         <div class="d-flex align-center">
-                          <mat-icon role="img"
-                            class="mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color"
-                            aria-hidden="true">
+                          <div role="img" class="mat-icon" aria-hidden="true">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                               class="bi bi-chevron-right" viewBox="0 0 16 16">
                               <path fill-rule="evenodd"
                                 d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708">
                               </path>
                             </svg>
-                          </mat-icon>
+                          </div>
                         </div>
-                        <div class="col-lg-8"">
-                                        <mat-panel-title class=" mat-expansion-panel-header-title d-flex flex-column">
-                          <label id="ScheduleHP.PropertyDetails_lbl" for="ScheduleHP.PropertyDetails">
+                        <div class="col-lg-8">
+                          <div class="mat-expansion-panel-header-title d-flex flex-column">
                             <h2 class="font-20">
-                              2. Income chargeable at special rates (2a(i)+2a(ii)+ 2b+ 2c+ 2d + 2e+ 2f elements related
-                              to Sl No.1)
+                              2. Income chargeable at special rates (2a(i)+2a(ii)+2b+2c+2d+2e+2f elements related to Sl
+                              No.1)
                             </h2>
-                          </label>
-                          </mat-panel-title>
+                          </div>
                         </div>
                       </div>
                     </span>
-                  </mat-expansion-panel-header>
+                  </div>
 
-                  <div role="region" class="mat-expansion-panel-content" id="cdk-accordion-child-6"
-                    aria-labelledby="mat-expansion-panel-header-6" style="height: 0px; visibility: hidden;">
+                  <div class="mat-expansion-panel-content">
                     <div class="mat-expansion-panel-body">
-
-
                       <hr class="w-100">
 
-                      <fieldset id="ScheduleOS.ScheduleOS_Gr73" name="ScheduleOS.ScheduleOS_Gr73"
-                        class="d-flex flex-column gap-14 routing" style="padding-top: 1.5rem;">
+                      <fieldset class="d-flex flex-column gap-14 routing" style="padding-top: 1.5rem;">
+
+                        <!-- Edit/Delete Buttons -->
                         <div class="d-flex w-100 justify-end pr-16">
                           <div class="d-flex gap-16">
-                            <button type="button" id="ScheduleOS.ScheduleOS_Gr73_edit" class="editButton iconEdit"
-                              aria-label="Edit">
-                              Edit
-                            </button>
-                            <button type="button" id="ScheduleOS.ScheduleOS_Gr73_delete" class="deleteButton"
-                              aria-label="Delete">
-                              Delete
-                            </button>
+                            <button type="button" class="editButton iconEdit">Edit</button>
+                            <button type="button" class="deleteButton">Delete</button>
                           </div>
                         </div>
 
                         <!-- a(i) -->
                         <div class="label-input-wrapper row-field text-bold-d font-16 highlight-os non-edit">
-                          <div>
-                            <label for="ScheduleOS.IncOthThanOwnRaceHorse.LtryPzzlChrgblUs115BB">
-                              a(i). Winnings from lotteries, crossword puzzles races, card games etc. chargeable u/s
-                              115BB
-                            </label>
-                          </div>
-                          <div>
-                            <div style="text-align: right; width: fit-content;">
-                              <span class="primaryText">₹ </span>
-                              <output id="ScheduleOS.IncOthThanOwnRaceHorse.LtryPzzlChrgblUs115BB">0</output>
-                            </div>
+                          <label>a(i). Winnings from lotteries, crossword puzzles, races, card games etc. chargeable u/s
+                            115BB</label>
+                          <div style="text-align: right; width: fit-content;">
+                            <span class="primaryText">₹</span>
+                            <output>0</output>
                           </div>
                         </div>
 
                         <!-- a(ii) -->
                         <div class="label-input-wrapper row-field text-bold-d font-16 highlight-os non-edit">
-                          <div>
-                            <label for="ScheduleOS.IncOthThanOwnRaceHorse.IncChrgblUs115BBJ">
-                              a(ii). Income by way of winnings from online games chargeable u/s 115BBJ
-                            </label>
-                          </div>
-                          <div>
-                            <div style="text-align: right; width: fit-content;">
-                              <span class="primaryText">₹ </span>
-                              <output id="ScheduleOS.IncOthThanOwnRaceHorse.IncChrgblUs115BBJ">0</output>
-                            </div>
+                          <label>a(ii). Income by way of winnings from online games chargeable u/s 115BBJ</label>
+                          <div style="text-align: right; width: fit-content;">
+                            <span class="primaryText">₹</span>
+                            <output>0</output>
                           </div>
                         </div>
 
                         <!-- b -->
                         <div class="label-input-wrapper row-field text-bold-d font-16 non-edit">
-                          <div>
-                            <label for="ScheduleOS.IncOthThanOwnRaceHorse.IncChrgblUs115BBE">
-                              b. Income chargeable u/s 115BBE (bi + bii + biii + biv+ bv + bvi)
-                            </label>
-                          </div>
-                          <div>
-                            <div style="text-align: right; width: fit-content;">
-                              <span class="primaryText">₹ </span>
-                              <output id="ScheduleOS.IncOthThanOwnRaceHorse.IncChrgblUs115BBE">0</output>
-                            </div>
+                          <label>b. Income chargeable u/s 115BBE (bi + bii + biii + biv+ bv + bvi)</label>
+                          <div style="text-align: right; width: fit-content;">
+                            <span class="primaryText">₹</span>
+                            <output>0</output>
                           </div>
                         </div>
 
@@ -538,15 +466,11 @@
                               c. Accumulated balance of recognised provident fund taxable u/s 111
                             </p>
                             <div style="text-align: right; width: fit-content;">
-                              <span class="primaryText">₹ </span>
-                              <output
-                                id="ScheduleOS.IncOthThanOwnRaceHorse.TaxAccumulatedBalRecPF.TotalIncomeBenefit_display"
-                                class="non-edit">0</output>
+                              <span class="primaryText">₹</span>
+                              <output class="non-edit">0</output>
                             </div>
                           </div>
-                          <fieldset id="ScheduleOS.IncOthThanOwnRaceHorse.TaxAccumulatedBalRecPF"
-                            name="ScheduleOS.IncOthThanOwnRaceHorse.TaxAccumulatedBalRecPF"
-                            class="d-flex flex-column gap-14 non-edit"></fieldset>
+                          <fieldset class="d-flex flex-column gap-14 non-edit"></fieldset>
                         </div>
 
                         <!-- d -->
@@ -556,13 +480,11 @@
                               d. Any other income chargeable at special rate (total of di to dxx)
                             </p>
                             <div style="text-align: right; width: fit-content;">
-                              <span class="primaryText">₹ </span>
-                              <output id="ScheduleOS.IncOthThanOwnRaceHorse.OthersGross_display"
-                                class="non-edit">0</output>
+                              <span class="primaryText">₹</span>
+                              <output class="non-edit">0</output>
                             </div>
                           </div>
-                          <fieldset id="ScheduleOS.ScheduleOS_Gr105" name="ScheduleOS.ScheduleOS_Gr105"
-                            class="non-edit"></fieldset>
+                          <fieldset class="non-edit"></fieldset>
                         </div>
 
                         <!-- e -->
@@ -573,13 +495,11 @@
                               special rates
                             </p>
                             <div style="text-align: right; width: fit-content;">
-                              <span class="primaryText">₹ </span>
-                              <output id="ScheduleOS.IncOthThanOwnRaceHorse.PassThrIncOSChrgblSplRate_display"
-                                class="non-edit">0</output>
+                              <span class="primaryText">₹</span>
+                              <output class="non-edit">0</output>
                             </div>
                           </div>
-                          <fieldset id="ScheduleOS.ScheduleOS_Gr115" name="ScheduleOS.ScheduleOS_Gr115"
-                            class="non-edit"></fieldset>
+                          <fieldset class="non-edit"></fieldset>
                         </div>
 
                         <!-- f -->
@@ -587,31 +507,31 @@
                           <div class="d-flex w-100 justify-between">
                             <p style="width: max(65%,12.5rem);">
                               f. Amount included in 1 and 2 above, which is claimed as chargeable at special rates in
-                              India as per DTAA (total of column (2) of table below)
+                              India as per DTAA
+                              (total of column (2) of table below)
                             </p>
                             <div style="text-align: right; width: fit-content;">
-                              <span class="primaryText">₹ </span>
-                              <output
-                                id="ScheduleOS.IncOthThanOwnRaceHorse.IncChargblSplRateOS.TotalAmtTaxUsDTAASchOs_display"
-                                class="non-edit">0</output>
+                              <span class="primaryText">₹</span>
+                              <output class="non-edit">0</output>
                             </div>
                           </div>
                         </div>
+
                       </fieldset>
                     </div>
                   </div>
-                </mat-expansion-panel>
+                </div>
 
                 <!-- 333333333 -->
 
-                <mat-expansion-panel hidetoggle class="mat-expansion-panel ng-tns-c857250080-56 ng-star-inserted">
-                  <mat-expansion-panel-header role="button" class="mat-expansion-panel-header mat-focus-indicator"
-                    style="height: fit-content;" id="mat-expansion-panel-header-6" tabindex="0"
-                    aria-controls="cdk-accordion-child-6" aria-expanded="false" aria-disabled="false">
+                <div hidetoggle class="mat-expansion-panel ng-tns-c857250080-56 ng-star-inserted">
+                  <div role="button" class="mat-expansion-panel-header mat-focus-indicator" style="height: fit-content;"
+                    id="mat-expansion-panel-header-6" tabindex="0" aria-controls="cdk-accordion-child-6"
+                    aria-expanded="false" aria-disabled="false">
                     <span class="mat-content mat-content-hide-toggle w-100">
                       <div class="d-flex gap-16 w-100" style="margin: 5px 0;">
                         <div class="d-flex align-center">
-                          <mat-icon role="img"
+                          <div role="img"
                             class="mat-icon notranslate material-icons mat-ligature-font mat-icon-no-color"
                             aria-hidden="true">
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
@@ -620,19 +540,20 @@
                                 d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708">
                               </path>
                             </svg>
-                          </mat-icon>
+                          </div>
                         </div>
                         <div class="col-lg-8">
-                          <mat-panel-title class=" mat-expansion-panel-header-title d-flex flex-column">
+                          <div class=" mat-expansion-panel-header-title d-flex flex-column">
                             <label id="ScheduleHP.PropertyDetails_lbl" for="ScheduleHP.PropertyDetails">
                               <h2 class="font-20">3. Deductions under section 57 (other than those relating to income
                                 chargeable at special rates under 2a, 2b & 2d)</h2>
                             </label>
-                          </mat-panel-title>
+                          </div>
                         </div>
                       </div>
                     </span>
-                  </mat-expansion-panel-header>
+                  </div>
+
 
 
                   <div role="region" class="mat-expansion-panel-content" id="cdk-accordion-child-8">
@@ -663,7 +584,7 @@
 
                         <!-- a(ii). Interest expenditure -->
                         <div class="d-flex flex-column gap-14 w-100">
-                          <div class="d-flex justify-between w-100">
+                          <div class="d-flex justi  fy-between w-100">
                             <div class="flex-column d-flex gap-8" style="width: max(65%,12.5rem);">
                               <p>a(ii). Interest expenditure u/s 57(i) [available only if income offered in 1a(i) and /
                                 or 1a(ii)]</p>
@@ -752,7 +673,8 @@
                     </div>
                   </div>
 
-                </mat-expansion-panel>
+                  </mat-expansion-panel>
+                </div>
 
                 <!-- 44444444444 -->
                 <div class="label-input-wrapper row-field px-4 font-16 default">
@@ -806,14 +728,29 @@
                 <div class="label-input-wrapper row-field px-4 font-16 default">
                   <div class="d-flex flex-column gap-8">
                     <div>
-                      <div class="d-inline">
-                        <label id="ScheduleOS.IncOthThanOwnRaceHorse.Increliefus89AOS_lbl"
-                          for="ScheduleOS.IncOthThanOwnRaceHorse.Increliefus89AOS">5a. Income claimed for relief from
+                      <div class="d-inline  font-16">
+                        <label class="">5a. Income claimed for relief from
                           taxation u/s 89A</label>
                       </div>
                       <div class="d-inline-block">
                         <p id="ScheduleOS.IncOthThanOwnRaceHorse.Increliefus89AOS_note" class="info-icon-span">
-                          <img src="./6n_files/Info.svg" alt="5a.">
+                          <svg xmlns="http://www.w3.org/2000/svg" id="Info" width="24" height="24" viewBox="0 0 24 24">
+                            <defs>
+                              <style>
+                                .cls-1 {
+                                  fill: none
+                                }
+
+                                .cls-2 {
+                                  fill: rgba(0, 0, 0, .6)
+                                }
+                              </style>
+                            </defs>
+                            <path id="Path_10701" d="M0 0h24v24H0z" class="cls-1" data-name="Path 10701" />
+                            <path id="Path_10702"
+                              d="M11 7h2v2h-2zm0 4h2v6h-2zm1-9a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8.011 8.011 0 0 1-8 8z"
+                              class="cls-2" data-name="Path 10702" />
+                          </svg>
                         </p>
                       </div>
                     </div>
@@ -821,40 +758,52 @@
                   <div class="input-div">
                     <div class="input-group">
                       <div class="input-group-prepend"><span class="input-group-text">₹</span></div>
-                      <input id="ScheduleOS.IncOthThanOwnRaceHorse.Increliefus89AOS"
-                        name="ScheduleOS.IncOthThanOwnRaceHorse.Increliefus89AOS" type="number"
-                        class="form-control text-right form-textbox">
+                      <input type="number" class="form-control text-right form-textbox">
                     </div>
-                    <div id="ScheduleOS.IncOthThanOwnRaceHorse.Increliefus89AOS_err" data-type="error"><span
-                        class="d-none"></span></div>
+                    <div data-type="error"><span class="d-none"></span></div>
                   </div>
                 </div>
 
                 <!-- 777777777 -->
-                <div class="label-input-wrapper row-field bg-blue font-20 default">
+                <div class="label-input-wrapper row-field bg-blue font-20 default " style="margin-bottom: 10px;">
                   <div class="d-flex flex-column gap-8">
                     <div>
                       <div class="d-inline">
-                        <label id="ScheduleOS.IncOthThanOwnRaceHorse.BalanceNoRaceHorse_lbl"
-                          for="ScheduleOS.IncOthThanOwnRaceHorse.BalanceNoRaceHorse">6. Net Income from other sources
-                          chargeable at normal applicable rates (1(after reducing income related to DTAA portion) − 3 +
-                          4 + 5 − 5a)</label>
-                      </div>
-                      <div class="d-inline-block">
-                        <p id="ScheduleOS.IncOthThanOwnRaceHorse.BalanceNoRaceHorse_note" class="info-icon-span">
-                          <img src="./6n_files/Info.svg" alt="6">
-                        </p>
+                        <label>6. Net Income from other sources
+                          chargeable at normal applicable rates (1(after reducing income related to DTAA portion) − 3
+                          +
+                          4 + 5 − 5a)
+
+                          <p class="info-icon-span display-inline" style="display:inline">
+                            <svg xmlns="http://www.w3.org/2000/svg" id="Info" width="24" height="24"
+                              viewBox="0 0 24 24">
+                              <defs>
+                                <style>
+                                  .cls-1 {
+                                    fill: none
+                                  }
+
+                                  .cls-2 {
+                                    fill: rgba(0, 0, 0, .6)
+                                  }
+                                </style>
+                              </defs>
+                              <path id="Path_10701" d="M0 0h24v24H0z" class="cls-1" data-name="Path 10701" />
+                              <path id="Path_10702"
+                                d="M11 7h2v2h-2zm0 4h2v6h-2zm1-9a10 10 0 1 0 10 10A10 10 0 0 0 12 2zm0 18a8 8 0 1 1 8-8 8.011 8.011 0 0 1-8 8z"
+                                class="cls-2" data-name="Path 10702" />
+                            </svg>
+                          </p>
+                        </label>
                       </div>
                     </div>
                   </div>
                   <div>
                     <div style="text-align: right; width: fit-content;">
                       <span class="primaryText">₹ </span>
-                      <output id="ScheduleOS.IncOthThanOwnRaceHorse.BalanceNoRaceHorse"
-                        name="ScheduleOS.IncOthThanOwnRaceHorse.BalanceNoRaceHorse">38,331</output>
+                      <output>38,331</output>
                     </div>
-                    <div id="ScheduleOS.IncOthThanOwnRaceHorse.BalanceNoRaceHorse_err" data-type="error"><span
-                        class="d-none"></span></div>
+                    <div><span class="d-none"></span></div>
                   </div>
                 </div>
 
@@ -863,7 +812,8 @@
                   <div class="d-flex flex-column gap-8">
                     <div>
                       <div class="d-inline">
-                        <label id="ScheduleOS.TotOthSrcNoRaceHorse_lbl" for="ScheduleOS.TotOthSrcNoRaceHorse">7. Income
+                        <label>7.
+                          Income
                           from other sources (other than from owning race horses)(2+6) (enter 6 as nil, if
                           negative)</label>
                       </div>
@@ -873,10 +823,9 @@
                   <div>
                     <div style="text-align: right; width: fit-content;">
                       <span class="primaryText">₹ </span>
-                      <output id="ScheduleOS.TotOthSrcNoRaceHorse"
-                        name="ScheduleOS.TotOthSrcNoRaceHorse">38,331</output>
+                      <output>38,331</output>
                     </div>
-                    <div id="ScheduleOS.TotOthSrcNoRaceHorse_err" data-type="error"><span class="d-none"></span></div>
+                    <div><span class="d-none"></span></div>
                   </div>
                 </div>
 
@@ -1030,7 +979,8 @@
                     <div _ngcontent-ng-c3934974020="">
                       <div _ngcontent-ng-c3934974020="" class="d-inline"><label _ngcontent-ng-c3934974020=""
                           id="ScheduleOS.IncChargeable_lbl" for="ScheduleOS.IncChargeable" style="display: inline;">9.
-                          Income under the head “Income from other sources” (7+8e) (take 8e as nil if negative)</label>
+                          Income under the head “Income from other sources” (7+8e) (take 8e as nil if
+                          negative)</label>
                       </div>
                       <div _ngcontent-ng-c3934974020="" class="d-inline-block"></div>
                     </div>
@@ -1077,7 +1027,8 @@
                             <div _ngcontent-ng-c3934974020="" class="d-flex flex-column"
                               style="width: max(65%,12.5rem);"><label _ngcontent-ng-c3934974020=""
                                 id="ScheduleOS.IncFromOwnHorse_lbl" for="ScheduleOS.IncFromOwnHorse">
-                                <h2 _ngcontent-ng-c3934974020="" class="font-20"> 10. Information about accrual/receipt
+                                <h2 _ngcontent-ng-c3934974020="" class="font-20"> 10. Information about
+                                  accrual/receipt
                                   of income from Other Sources</h2>
                               </label></div>
                             <div _ngcontent-ng-c3934974020="">
@@ -1143,8 +1094,10 @@
                                     style="min-width: 2.5rem !important;"><label _ngcontent-ng-c3934974020="">1.</label>
                                   </th>
                                   <th _ngcontent-ng-c3934974020="" rowspan="1" colspan="2" scope="row">
-                                    <p _ngcontent-ng-c3934974020="">Income by way of winnings from lotteries, crossword
-                                      puzzles, races, games, gambling, betting etc. referred to in section 2(24)(ix)</p>
+                                    <p _ngcontent-ng-c3934974020="">Income by way of winnings from lotteries,
+                                      crossword
+                                      puzzles, races, games, gambling, betting etc. referred to in section 2(24)(ix)
+                                    </p>
                                   </th>
                                   <td _ngcontent-ng-c3934974020="" colspan="1" class="p-16 td-table-data">
                                     <div _ngcontent-ng-c3934974020="" class="label-input-wrapper default">
@@ -1673,7 +1626,8 @@
                                     style="min-width: 2.5rem !important;"><label _ngcontent-ng-c3934974020="">4.</label>
                                   </th>
                                   <th _ngcontent-ng-c3934974020="" rowspan="1" colspan="2" scope="row">
-                                    <p _ngcontent-ng-c3934974020="">Dividend Income u/s 115A(1)(a)(i) other than as per
+                                    <p _ngcontent-ng-c3934974020="">Dividend Income u/s 115A(1)(a)(i) other than as
+                                      per
                                       proviso to sec 115A(1)(a)(A) @ 20% (Including PTI Income)</p>
                                   </th>
                                   <td _ngcontent-ng-c3934974020="" colspan="1" class="p-16 td-table-data">
@@ -1807,7 +1761,8 @@
                                     style="min-width: 2.5rem !important;"><label _ngcontent-ng-c3934974020="">5.</label>
                                   </th>
                                   <th _ngcontent-ng-c3934974020="" rowspan="1" colspan="2" scope="row">
-                                    <p _ngcontent-ng-c3934974020="">Dividend Income as per proviso to sec 115A(1)(a)(A)
+                                    <p _ngcontent-ng-c3934974020="">Dividend Income as per proviso to sec
+                                      115A(1)(a)(A)
                                       @10% (Including PTI Income)</p>
                                   </th>
                                   <td _ngcontent-ng-c3934974020="" colspan="1" class="p-16 td-table-data">
@@ -2473,7 +2428,8 @@
                                     style="min-width: 2.5rem !important;"><label
                                       _ngcontent-ng-c3934974020="">10.</label></th>
                                   <th _ngcontent-ng-c3934974020="" rowspan="1" colspan="2" scope="row">
-                                    <p _ngcontent-ng-c3934974020="">Income from retirement benefit account maintained in
+                                    <p _ngcontent-ng-c3934974020="">Income from retirement benefit account maintained
+                                      in
                                       a notified country u/s 89A (Taxable portion after reducing relief u/s 89A)</p>
                                   </th>
                                   <td _ngcontent-ng-c3934974020="" colspan="1" class="p-16 td-table-data">
@@ -2620,30 +2576,29 @@
 
 
               </div>
-            </div>
 
+            </div>
           </div>
+
+
+        </div>
+
+        <div class="p-0 mt-5">
+          <button class="primaryButton largeButton floatRight iconsAfter nextIcon">
+            <span>Confirm</span>
+          </button>
+
+          <button class="btnLeft secondaryButton largeButton marginCancel iconBefore previousIcon">
+            <span>Back to Summary</span>
+          </button>
+
+
         </div>
 
 
-      </div>
-
-      <div class="p-0 mt-5">
-        <button class="primaryButton largeButton floatRight iconsAfter nextIcon">
-          <span>Confirm</span>
-        </button>
-
-        <button class="btnLeft secondaryButton largeButton marginCancel iconBefore previousIcon">
-          <span>Back to Summary</span>
-        </button>
 
 
       </div>
-
-
-
-
-    </div>
   </section>
 
 
